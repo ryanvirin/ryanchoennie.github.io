@@ -45,8 +45,8 @@ img{
 aside{
     position: fixed;
     background: #222;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 120px;
     height: 100%;
     overflow: no-content;
@@ -87,7 +87,7 @@ aside a:hover{
 }
 
 aside nav a:nth-child(2){
-    background: #000;
+    background: #222;
 
 }
 
@@ -95,6 +95,10 @@ aside nav a:nth-child(2):hover{
     background: #b2b2b2;
     color: #222;
 
+}
+
+aside nav a:active {
+    color: #222;
 }
 
 main{
@@ -412,7 +416,7 @@ input[type="submit"]:hover{
         z-index: 1;
 
     }
-
+    
     .mobile-nav a{
         width: 100%;
         color: #b2b2b2;
